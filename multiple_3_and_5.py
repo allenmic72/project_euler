@@ -15,6 +15,7 @@ max_num = max_num - 1
 sum_divis = 0
 divis_3 = max_num - (max_num % 3) 
 while(divis_3 > 0):
+	#don't want to include numbers divisible by both 3 and 5 twice in the final count
 	if ((divis_3 % 5) != 0):
 		sum_divis = sum_divis + divis_3
 	divis_3 = divis_3 - 3
