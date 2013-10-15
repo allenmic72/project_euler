@@ -6,7 +6,7 @@ try:
 	max_num = (int(float(sys.argv[1])))
 except ValueError:
 	print >>sys.stderr, 'There was a problem parsing the command line arguments.'
-		+ ' Remember to enter a number'
+	+ ' Remember to enter a number'
 	sys.exit(1)
 
 #since we are looking for multiples below the input, not inclusive
